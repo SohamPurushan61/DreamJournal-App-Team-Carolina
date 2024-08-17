@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06261CB72BC733700031BBBC /* DreamJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06261CB62BC733700031BBBC /* DreamJournalApp.swift */; };
+		06261CB92BC733700031BBBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06261CB82BC733700031BBBC /* ContentView.swift */; };
+		06261CBB2BC733740031BBBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06261CBA2BC733740031BBBC /* Assets.xcassets */; };
+		06261CBE2BC733740031BBBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06261CBD2BC733740031BBBC /* Preview Assets.xcassets */; };
+		06261CC82BC733750031BBBC /* DreamJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06261CC72BC733740031BBBC /* DreamJournalTests.swift */; };
+		06261CD22BC733750031BBBC /* DreamJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06261CD12BC733750031BBBC /* DreamJournalUITests.swift */; };
+		06261CD42BC733750031BBBC /* DreamJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06261CD32BC733750031BBBC /* DreamJournalUITestsLaunchTests.swift */; };
+		06261CE22BC737750031BBBC /* LoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06261CE12BC737750031BBBC /* LoginSignupView.swift */; };
+		06261CE42BC737A20031BBBC /* DreamWritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06261CE32BC737A20031BBBC /* DreamWritingView.swift */; };
+		06A222822BD5C041000D543A /* DreamRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A222812BD5C041000D543A /* DreamRowView.swift */; };
+		06A8ACFD2BD4971900A5A94D /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 06A8ACFC2BD4971900A5A94D /* FSCalendar */; };
+		06A8AD012BD49A1800A5A94D /* CalendarViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A8AD002BD49A1800A5A94D /* CalendarViewRepresentable.swift */; };
+		06FA726B2BD04F6200A2F862 /* CalenderView.swfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA726A2BD04F6200A2F862 /* CalenderView.swfit.swift */; };
+		06FA726E2BD0572F00A2F862 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA726D2BD0572F00A2F862 /* CalendarViewModel.swift */; };
+		06FA72712BD0595000A2F862 /* DreamEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FA72702BD0595000A2F862 /* DreamEntry.swift */; };
+		0A5A7DEB2BD61EBF007FF4AA /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A7DEA2BD61EBF007FF4AA /* MainAppView.swift */; };
+		0A5A7DF62BD6BEDA007FF4AA /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 0A5A7DF52BD6BEDA007FF4AA /* OpenAI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06261CC42BC733740031BBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06261CAB2BC733700031BBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06261CB22BC733700031BBBC;
+			remoteInfo = DreamJournal;
+		};
+		06261CCE2BC733750031BBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06261CAB2BC733700031BBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06261CB22BC733700031BBBC;
+			remoteInfo = DreamJournal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06261CB32BC733700031BBBC /* DreamJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06261CB62BC733700031BBBC /* DreamJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamJournalApp.swift; sourceTree = "<group>"; };
+		06261CB82BC733700031BBBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		06261CBA2BC733740031BBBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06261CBD2BC733740031BBBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06261CC32BC733740031BBBC /* DreamJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06261CC72BC733740031BBBC /* DreamJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamJournalTests.swift; sourceTree = "<group>"; };
+		06261CCD2BC733750031BBBC /* DreamJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06261CD12BC733750031BBBC /* DreamJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamJournalUITests.swift; sourceTree = "<group>"; };
+		06261CD32BC733750031BBBC /* DreamJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06261CE12BC737750031BBBC /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupView.swift; sourceTree = "<group>"; };
+		06261CE32BC737A20031BBBC /* DreamWritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamWritingView.swift; sourceTree = "<group>"; };
+		06A222812BD5C041000D543A /* DreamRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamRowView.swift; sourceTree = "<group>"; };
+		06A8AD002BD49A1800A5A94D /* CalendarViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewRepresentable.swift; sourceTree = "<group>"; };
+		06FA726A2BD04F6200A2F862 /* CalenderView.swfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swfit.swift; sourceTree = "<group>"; };
+		06FA726D2BD0572F00A2F862 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		06FA72702BD0595000A2F862 /* DreamEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamEntry.swift; sourceTree = "<group>"; };
+		0A5A7DEA2BD61EBF007FF4AA /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06261CB02BC733700031BBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5A7DF62BD6BEDA007FF4AA /* OpenAI in Frameworks */,
+				06A8ACFD2BD4971900A5A94D /* FSCalendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06261CC02BC733740031BBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06261CCA2BC733750031BBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06261CAA2BC733700031BBBC = {
+			isa = PBXGroup;
+			children = (
+				06261CB62BC733700031BBBC /* DreamJournalApp.swift */,
+				06261CB52BC733700031BBBC /* DreamJournal */,
+				06261CC62BC733740031BBBC /* DreamJournalTests */,
+				06261CD02BC733750031BBBC /* DreamJournalUITests */,
+				06261CB42BC733700031BBBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06261CB42BC733700031BBBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06261CB32BC733700031BBBC /* DreamJournal.app */,
+				06261CC32BC733740031BBBC /* DreamJournalTests.xctest */,
+				06261CCD2BC733750031BBBC /* DreamJournalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06261CB52BC733700031BBBC /* DreamJournal */ = {
+			isa = PBXGroup;
+			children = (
+				06FA726F2BD0593400A2F862 /* Models */,
+				06FA726C2BD0563B00A2F862 /* ViewModels */,
+				06261CE02BC737340031BBBC /* Views */,
+				06261CBA2BC733740031BBBC /* Assets.xcassets */,
+				06261CBC2BC733740031BBBC /* Preview Content */,
+			);
+			path = DreamJournal;
+			sourceTree = "<group>";
+		};
+		06261CBC2BC733740031BBBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				06261CBD2BC733740031BBBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06261CC62BC733740031BBBC /* DreamJournalTests */ = {
+			isa = PBXGroup;
+			children = (
+				06261CC72BC733740031BBBC /* DreamJournalTests.swift */,
+			);
+			path = DreamJournalTests;
+			sourceTree = "<group>";
+		};
+		06261CD02BC733750031BBBC /* DreamJournalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06261CD12BC733750031BBBC /* DreamJournalUITests.swift */,
+				06261CD32BC733750031BBBC /* DreamJournalUITestsLaunchTests.swift */,
+			);
+			path = DreamJournalUITests;
+			sourceTree = "<group>";
+		};
+		06261CE02BC737340031BBBC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				06A222812BD5C041000D543A /* DreamRowView.swift */,
+				06261CB82BC733700031BBBC /* ContentView.swift */,
+				0A5A7DEA2BD61EBF007FF4AA /* MainAppView.swift */,
+				06261CE12BC737750031BBBC /* LoginSignupView.swift */,
+				06FA726A2BD04F6200A2F862 /* CalenderView.swfit.swift */,
+				06261CE32BC737A20031BBBC /* DreamWritingView.swift */,
+				06A8AD002BD49A1800A5A94D /* CalendarViewRepresentable.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		06FA726C2BD0563B00A2F862 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				06FA726D2BD0572F00A2F862 /* CalendarViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		06FA726F2BD0593400A2F862 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06FA72702BD0595000A2F862 /* DreamEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06261CB22BC733700031BBBC /* DreamJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06261CD72BC733750031BBBC /* Build configuration list for PBXNativeTarget "DreamJournal" */;
+			buildPhases = (
+				06261CAF2BC733700031BBBC /* Sources */,
+				06261CB02BC733700031BBBC /* Frameworks */,
+				06261CB12BC733700031BBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamJournal;
+			packageProductDependencies = (
+				06A8ACFC2BD4971900A5A94D /* FSCalendar */,
+				0A5A7DF52BD6BEDA007FF4AA /* OpenAI */,
+			);
+			productName = DreamJournal;
+			productReference = 06261CB32BC733700031BBBC /* DreamJournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06261CC22BC733740031BBBC /* DreamJournalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06261CDA2BC733750031BBBC /* Build configuration list for PBXNativeTarget "DreamJournalTests" */;
+			buildPhases = (
+				06261CBF2BC733740031BBBC /* Sources */,
+				06261CC02BC733740031BBBC /* Frameworks */,
+				06261CC12BC733740031BBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06261CC52BC733740031BBBC /* PBXTargetDependency */,
+			);
+			name = DreamJournalTests;
+			productName = DreamJournalTests;
+			productReference = 06261CC32BC733740031BBBC /* DreamJournalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06261CCC2BC733750031BBBC /* DreamJournalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06261CDD2BC733750031BBBC /* Build configuration list for PBXNativeTarget "DreamJournalUITests" */;
+			buildPhases = (
+				06261CC92BC733750031BBBC /* Sources */,
+				06261CCA2BC733750031BBBC /* Frameworks */,
+				06261CCB2BC733750031BBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06261CCF2BC733750031BBBC /* PBXTargetDependency */,
+			);
+			name = DreamJournalUITests;
+			productName = DreamJournalUITests;
+			productReference = 06261CCD2BC733750031BBBC /* DreamJournalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06261CAB2BC733700031BBBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					06261CB22BC733700031BBBC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					06261CC22BC733740031BBBC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 06261CB22BC733700031BBBC;
+					};
+					06261CCC2BC733750031BBBC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 06261CB22BC733700031BBBC;
+					};
+				};
+			};
+			buildConfigurationList = 06261CAE2BC733700031BBBC /* Build configuration list for PBXProject "DreamJournal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06261CAA2BC733700031BBBC;
+			packageReferences = (
+				06A8ACFB2BD4971900A5A94D /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				0A5A7DF42BD6BEDA007FF4AA /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
+			productRefGroup = 06261CB42BC733700031BBBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06261CB22BC733700031BBBC /* DreamJournal */,
+				06261CC22BC733740031BBBC /* DreamJournalTests */,
+				06261CCC2BC733750031BBBC /* DreamJournalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06261CB12BC733700031BBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06261CBE2BC733740031BBBC /* Preview Assets.xcassets in Resources */,
+				06261CBB2BC733740031BBBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06261CC12BC733740031BBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06261CCB2BC733750031BBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06261CAF2BC733700031BBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FA726E2BD0572F00A2F862 /* CalendarViewModel.swift in Sources */,
+				0A5A7DEB2BD61EBF007FF4AA /* MainAppView.swift in Sources */,
+				06261CE22BC737750031BBBC /* LoginSignupView.swift in Sources */,
+				06261CE42BC737A20031BBBC /* DreamWritingView.swift in Sources */,
+				06A8AD012BD49A1800A5A94D /* CalendarViewRepresentable.swift in Sources */,
+				06A222822BD5C041000D543A /* DreamRowView.swift in Sources */,
+				06FA72712BD0595000A2F862 /* DreamEntry.swift in Sources */,
+				06FA726B2BD04F6200A2F862 /* CalenderView.swfit.swift in Sources */,
+				06261CB92BC733700031BBBC /* ContentView.swift in Sources */,
+				06261CB72BC733700031BBBC /* DreamJournalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06261CBF2BC733740031BBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06261CC82BC733750031BBBC /* DreamJournalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06261CC92BC733750031BBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06261CD42BC733750031BBBC /* DreamJournalUITestsLaunchTests.swift in Sources */,
+				06261CD22BC733750031BBBC /* DreamJournalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06261CC52BC733740031BBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06261CB22BC733700031BBBC /* DreamJournal */;
+			targetProxy = 06261CC42BC733740031BBBC /* PBXContainerItemProxy */;
+		};
+		06261CCF2BC733750031BBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06261CB22BC733700031BBBC /* DreamJournal */;
+			targetProxy = 06261CCE2BC733750031BBBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06261CD52BC733750031BBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06261CD62BC733750031BBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06261CD82BC733750031BBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DreamJournal/Preview Content\"";
+				DEVELOPMENT_TEAM = JBQXRWSCYN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Soham.DreamJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06261CD92BC733750031BBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DreamJournal/Preview Content\"";
+				DEVELOPMENT_TEAM = JBQXRWSCYN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Soham.DreamJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06261CDB2BC733750031BBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBQXRWSCYN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Soham.DreamJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamJournal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DreamJournal";
+			};
+			name = Debug;
+		};
+		06261CDC2BC733750031BBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBQXRWSCYN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Soham.DreamJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamJournal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DreamJournal";
+			};
+			name = Release;
+		};
+		06261CDE2BC733750031BBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBQXRWSCYN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Soham.DreamJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DreamJournal;
+			};
+			name = Debug;
+		};
+		06261CDF2BC733750031BBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBQXRWSCYN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Soham.DreamJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DreamJournal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06261CAE2BC733700031BBBC /* Build configuration list for PBXProject "DreamJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06261CD52BC733750031BBBC /* Debug */,
+				06261CD62BC733750031BBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06261CD72BC733750031BBBC /* Build configuration list for PBXNativeTarget "DreamJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06261CD82BC733750031BBBC /* Debug */,
+				06261CD92BC733750031BBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06261CDA2BC733750031BBBC /* Build configuration list for PBXNativeTarget "DreamJournalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06261CDB2BC733750031BBBC /* Debug */,
+				06261CDC2BC733750031BBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06261CDD2BC733750031BBBC /* Build configuration list for PBXNativeTarget "DreamJournalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06261CDE2BC733750031BBBC /* Debug */,
+				06261CDF2BC733750031BBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		06A8ACFB2BD4971900A5A94D /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.4;
+			};
+		};
+		0A5A7DF42BD6BEDA007FF4AA /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06A8ACFC2BD4971900A5A94D /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06A8ACFB2BD4971900A5A94D /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+		0A5A7DF52BD6BEDA007FF4AA /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A5A7DF42BD6BEDA007FF4AA /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 06261CAB2BC733700031BBBC /* Project object */;
+}
